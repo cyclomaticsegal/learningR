@@ -31,6 +31,7 @@ class(X1)
 #factors - things divided into 'classes' are called categorical or nominal data and stored as 'factors'
 #nominal data can be input as numbers and then made a factor with the factor function
 #easier to pass a vector to the factor function
+#factor assigns numbers on alpha order
 
 X1 <- factor(X1)
 X1
