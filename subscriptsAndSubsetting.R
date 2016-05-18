@@ -111,6 +111,17 @@ V3 <- mat2[,2] * mean(mat1[2,])
 #create a new matrix called mat3 consisting of the first row of mat1 as 1st col and then first row of mat2 as second col
 mat3 <- matrix(data = c(mat1[1,], mat2[1,]), ncol = 2)
 
+#using subsets is useful to extract part of a matrix or dataframe
+
+Counts <- read.csv("Counts.csv", header = T)
+
+#data frame containing only weight > 70
+
+Counts2 <- subset(Counts, Weight >= 70)
+
+#data frame for Male with only weight data in the subset
+
+Counts3 <- subset(Counts, Sex == "M", select = c(Weight, Count))
 
 
 
