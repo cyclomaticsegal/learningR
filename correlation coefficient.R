@@ -4,4 +4,3 @@ testosterone <- c(22.2, 26.1, 21.5, 23.8, 23.8, 20.5, 24.6, 22.6, 19.9, 23.9, 19
 plot(nearest.neighbour, testosterone)
 cor.test(nearest.neighbour, testosterone)
 
-
