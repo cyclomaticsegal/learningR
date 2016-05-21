@@ -1,0 +1,15 @@
+* Why is machine generated big data useful?
+
+- Used to enable real time actions
+
+- In-situ bring computation where the data is located (airplanes)
+  * Allows realtime notification and subsequent actions
+  * Design differently
+    - monitor in realtime
+  * requires more scalable systems (CLOUD like azure and amazon)
+- See affects of such changes in SCADA systems
+  * Supervisory Control and Data Acquistion
+  * Remove monitoring and control across sites and sensors in the pyhsical world
+  * helps to enable actions to reduce waste and improve efficiency in industrial processes including manufacturing or power gen 
+* As the largest generator of big data - machine data can enable real time actions, however
+  * a culture shift is needed towards computing and realtime action
