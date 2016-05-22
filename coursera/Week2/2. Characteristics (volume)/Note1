@@ -1,0 +1,24 @@
+- Volumne is the big data dimension that relates to the sheer size of the data
+  * Can come from 
+    - big data sets being shared
+    - many small data pieces
+    - events collected over time
+- How much are we talking about 
+  * The size and scale of the data can be massive
+  * Digital data will grow by a factor of 44 until 2020
+  * Think of time cost and energy to store 35.2 Zettabytes by 2020
+- Exponential growth to data volume and storage
+  * Whats the relevance of collecting it?
+    - Better insight for business
+      * Safety
+      * Reliability
+      * Healthcare
+      * Governance
+    - Turning it to advantage is the goal
+- The challenges
+  * Storage
+  * Retrieval and moving it to processing units in a timely fashion to get results
+  * Networking, bandwidth and cost of storage (in house vs cloud)
+- Most analytic process wont scale to huge amount of data
+  * As volume increases performance and cost challenging
+  

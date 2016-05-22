@@ -1,0 +1,21 @@
+
+- Big data is a blanket term for:
+  * use to refer to any collection of data that is
+    - so large and complex that it exceels the process and capability of conventional data management systems and techniques
+- How to characterize big data
+  - Four V's
+    * Volume
+      - Vast amount of data generated every hour, minute, second in our digitized world
+    * Velocity
+      - The speed at which its generated and the pace it moves from one point to the next
+    * Variety
+      - Refers to the ever increasing forms that data comes in (text, images, voice, spatial)
+    * Veractiy
+      - Referes to the biases, noise and abnormality in data. Its truthfulness and trustworthiness
+    * Valence
+      - Refers to the connectedness of big data
+    * Value
+      - How will big data benefit you or your organisations
+      
+      
+    
