@@ -1,0 +1,29 @@
+#When finished analysing your data you should:
+
+#1. know and understand the results of your analysis
+  # understand the patterns meaning and draw appropriate inferences to do quantitive science
+#2. have a detailed record of the results of your analysis
+#3. have copies of whatever graphs are necessary to present or publish the results of your analysis
+#4. have a record of how you did the analysis
+#5. be able to repeat the analysis
+#6. be able to redraw your graphs
+
+# The working directory
+  # Where all your files are kept
+# The workspace 
+  # A collection of objects and packages that are loaded into R
+  # R stores all objects created in the session in the workspace
+  # use ls()  and rm(objectName) to see and delete them
+  # You can save the R workspace
+ls()
+save(Counts, clusters, file = "./images/countsAndClusters.Rdata")
+save.image("./images/simonsStudy.Rdata")
+
+load("./images/simonsStudy.Rdata")
+# The script editor
+  # Tool for editing commands
+  
+# RECOMMENDED
+# Setup a director for each dataset you analyse and set it as the working directory and keep all files from the analysis there
+# Save the workspace
+# Name variables clearly
