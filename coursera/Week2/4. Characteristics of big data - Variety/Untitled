@@ -1,0 +1,29 @@
+- variety = scale refering to diversity not size
+
+- Complexity  
+  * Types of data we need to store and combine
+- Not just tables and rows / columns
+- Today a much wider variety of data stored to analyse and solve real world problems
+  * Image data
+  * Text data
+  * Geographic maps
+  * Network data
+  * Computer generated simulations
+- Hetrogenity of data can be characterised across several dimensions
+  * Structural variety / difference of representation of the data / formats and models
+  * Medium variety / medium in which data is delivered (transcript of speech in text vs. audio vs. close caption)
+  * Semantic variety / how to interpret and operate on data / different units of measure / qualitative vs. quantatitive 
+    - Age as number or classification like infant, juvenille or adult
+    - or different assumptions or conditions on the data
+      * EG. 
+  * Availability
+    - Variation of realtime or intermittment
+    - Traffic cam realtime or satellite only over region of interest
+- Variety within TYPE
+  * Email is a hybrid entity
+    - structure table like part of header (TO from, cc, subject, mailed-by etc...meta data)
+    - Unstructured body which can contain markup (to be reasoned about)
+    - Attachmens / multimedia
+    - Who sends to whom
+    - Threading of email the only way to get relational semantics
+    - Email server is realtime but a repository is not
