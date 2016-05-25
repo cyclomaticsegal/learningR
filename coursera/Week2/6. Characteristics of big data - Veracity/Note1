@@ -1,0 +1,29 @@
+- Characteristics of big data : VERACITY
+
+- Veracity refers to the quality of the data.
+ * Validity and Volatility
+ * Important to make it operation
+  - Can be noisy 
+  - Can be uncertain
+  - Can be full of biases
+  - Can be full of abnormalities
+  - Can be imprecise
+* Of no value if not accurate
+  - Results of analysis only as good as the data being analysed (junk in junk out)
+* Evindence only valuable if quality is there
+* Quality can be defined as a function of:
+  * Accuracy of the data
+  * Reliability of the data source
+  * Context within the analysis
+  - Uncertainty grows with data not managed quality QOS solutions like a RDBMS
+  - Social media data highly uncertain in expression and content
+  - Machine and people generated data is messier and more uncertain
+    * Imprecise uncertain
+    * High velocity leaves no time for ETL
+      - Hindering quality 
+* Google flu trends over estimated
+  - Soc med affected the estimated
+  - Don't just rely on only big data in the analysis
+  - Identify where the big data comes from
+  - What transforms did it go through on its way to analysis
+    * Refered to as provenance

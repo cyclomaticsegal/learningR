@@ -52,7 +52,26 @@ Y1Mod <- Y1 %% 2
 plot(X1, Y1, pch = sym, cex = 1.2, xlab="cols", ylab = "rows", xlim = c(0.3, 5.7), ylim = c(0.3, 5.7), type = "n")
 points(X1[X1 %% 2 == 1], Y1[Y1 %% 2 == 1] , pch = 16, col = X1 + Y1)
 points(X1[X1 %% 2 == 0], Y1[Y1 %% 2 == 0] , pch = 17, col = X1 + Y1 + 1)
+legend(0.38, 5.7, legend = c("mod1",  "mod2"), pch = 16:17, col = c("red", "blue"), cex = 0.7, text.font = 3, bty = "n")
 
+?par
+
+p <- par(mfrow = c(1,2))
+p
+
+#pie charts (distortion of real patterns - look up why)
+
+chart.numbers <- c(15, 108, 220, 22, 170)
+names(chart.numbers) <- c("Bar", "2D Pie", "3D Pie", "Scatter", "Doughnut")
+par(mfrow = c(1,2))
+pie(chart.numbers)
+text(0, 1, "Frequencies of graphs in marketing material", cex = 0.6, font = 2)
+
+#manually print to file
+png(filename = "pie")
+
+?runif
+?rnorm
 
 
 

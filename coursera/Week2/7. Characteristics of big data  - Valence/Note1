@@ -1,0 +1,26 @@
+- CHARACTERISTICS OF BIG DATA : VALENCE
+
+- Valence == Connectedness
+  * Term comes from chemistry
+  * Higher bonding and connectedness between data
+    - Direct and indirect connection
+      * A city is connected to a country
+      * Two doctors are connected by their profession
+- For a data collection, Valence measures the ration of "actually" connected data items to
+  - the possible number of connections that could occur within the collection
+- The most important aspect of valence
+  * Data connectivity increases over time
+  * Think of LinkedIn
+  * Increasing Valence can lead to emergent group behaviour in people networks
+    - Creation of shared groups and coalitions with shared goals.
+- High Valence data set is denser
+  * Makes regular analytic techniques inefficient
+  * More complex analytic techniques are required
+  * More intresting challenges arise due to the dynamic behaviour of the data
+  - Need to model and predict how the valence of a connected data set will change over time and volume
+  - Dynamic behaviour also leads to the problem of event detection
+    * Such as bursts in local cohesion in parts of the data
+    * Emergent behaviour within the data
+      (ie increased polarisation in a community)
+      
+  

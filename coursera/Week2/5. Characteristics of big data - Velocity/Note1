@@ -1,1 +1,28 @@
- s  
+- Velocity refers to:
+  * Increasing speed that big data is created
+  * Increasing speed that it needs to be stored
+  * Increasing speed that it needs to be analyzed
+  - Processing of data in realtime to match its production rate is a goal of big data analytics
+  - If business can not take advantage of analysis at the speed data is generated = missed opportunity
+- Real time processing
+  * Of sensor data for example
+  * Different to batch processing
+  * Todays sensor driven stream driven real time data requires fast decisions
+- How do we make sure we match the velocity of the expectations to gain insight from big data with its velocity?
+  * Rate of generation, retrieval or processing of data is app specific
+  * The need for realtime data driven actions in a biz case dictates the velocity of anaylitics over big data
+    - Precision of 1 minute or 1 day etc
+- Paths to choose
+  * Speed of data generation:
+    - fast
+    - slow
+      * faster = more $
+  * speed of data processing
+    - fast
+    - slow
+      * faster = more $
+  * Decsion on path based on:
+    - Cost of hardware
+    - Time sensitivity of decision making
+    - Future scenarios
+    - This becomes a business driven question
