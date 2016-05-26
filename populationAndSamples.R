@@ -49,11 +49,33 @@ stem(M1, scale = 2)
 stem(M2, scale = 2)
 stem(M2, scale = 3)
 
+?rnorm
 
+?hist
 
+# There are a great many type of shapes of frequency distribution
+# positve skew, negative skew, poisson, bimodal (two peaks)
 
+par(mfrow = c(2,2))
+v <- rnorm(1000, 5, 2)
 
+hist(rnorm(1000, 5, 2), col = "grey", main = "Normal", breaks = 15)
 
+hist(exp(rnorm(1000, 0, 0.5)), col = "grey", main = "Lognormal", breaks = 15)
+
+hist(rpois(1000, 2), col = "grey", main = "Poisson")
+
+hist(c(rnorm(500, 0, 2), rnorm(500, 8, 2)), col = "grey", main = "Bimodal", breaks = 15)
+
+# Measures of central tendency
+# Summarising some of the important features of our data, in particular the location,
+# where it is spread or its dispersion; how far from the centre of teh data
+# mean and median tells us the middle of the frequency distribution
+
+mean(M1)
+median(M2)
+
+# Median - the number in the middle (accounts for skewing)
 
 
 
