@@ -27,8 +27,8 @@ max(M1)
 hist(M1, col = "grey", main = "Frequency of numbers")
 
 #boxplot (box and whisper)
-# has a think horizontal bar which indicates the median
-# the top and bottom indicates the itner-quartile range
+# has a thin horizontal bar which indicates the median
+# the top and bottom indicates the inter-quartile range
 # the whiskers on top and bottom indicated last data points 1.5 times the interquartile range or spread of data outside the inter quartile
 
 boxplot(M1, col = "grey", xlab = "M1", ylab = "Value")
@@ -69,7 +69,7 @@ hist(c(rnorm(500, 0, 2), rnorm(500, 8, 2)), col = "grey", main = "Bimodal", brea
 
 # Measures of central tendency
 # Summarising some of the important features of our data, in particular the location,
-# where it is spread or its dispersion; how far from the centre of teh data
+# where it is spread or its dispersion; how far from the centre of the data
 # mean and median tells us the middle of the frequency distribution
 
 mean(M1)
